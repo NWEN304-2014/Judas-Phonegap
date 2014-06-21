@@ -171,7 +171,7 @@ padding-top: 150px;
  	left: 0%;
  }
   #possum{
-    background:url(images/Possum.png) ;
+    background:url(images/Possum.jpg) ;
     background-size: 100% 100%;
    	position: fixed;
    	height: 50%;
@@ -180,7 +180,7 @@ padding-top: 150px;
    	left: 50%;
  }
  #stoat{
-  background:url(images/Stoat.png) ;
+  background:url(images/Stoat.jpg) ;
   background-size: 100% 100%;
  	position: fixed;
  	height: 50%;
@@ -189,7 +189,7 @@ padding-top: 150px;
  	left: 0%;
  }
  #other{
-  background:url(images/Cat.png) ;
+  background:url(images/Cat.jpg) ;
   background-size: 100% 100%;
  	position: fixed;
  	height: 50%;
