@@ -3,6 +3,99 @@
 	color: white;
 }
 
+.infoButton{	
+	position:fixed;
+	z-index:10;
+	height:30px;
+	width:30px;
+	
+	
+}
+
+#logoutButt{
+	position:fixed;
+	top:1.5%;
+	left:90%;
+	width: 25px;
+	height: 25px;
+
+}
+
+#infoButt{
+	position:fixed;
+	top:1%;
+	left:2.5%;
+	width: 30px;
+	height: 30px;
+}
+
+#rabbitInfo{
+	top:10%;
+	left:3%;
+	
+}
+#possumInfo{
+	top:10%;
+	left:52%;
+}
+#stoatInfo{
+	top:52%;
+	left:3%;
+}
+#otherInfo{
+	top:52%;
+	left:52%;
+}
+
+#posInfoPage{
+	position: fixed;
+	top: 35px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#reportBut{
+	position: fixed;
+	z-index: 10;
+	top: 87%;
+	left: 83%;
+	height: 55px;
+	width: 55px;
+}
+#reportButStoat{
+	position: fixed;
+	z-index: 10;
+	top: 87%;
+	left: 36%;
+	height: 55px;
+	width: 55px;
+}
+#reportButCat{
+	position: fixed;
+	z-index: 10;
+	top: 87%;
+	left: 85%;
+	height: 55px;
+	width: 55px;
+}
+#reportButPos{
+	position: fixed;
+	z-index: 10;
+	top: 37%;
+	left: 85%;
+	height: 55px;
+	width: 55px;
+}
+#reportButRat{
+	position: fixed;
+	z-index: 10;
+	top: 37%;
+	left: 36%;
+	height: 55px;
+	width: 55px;
+}
+
 .img-carousel {
 	height: 100px;
 	padding:2px;
@@ -15,10 +108,24 @@
    	background-color:black;
 }
 
-.ui-page {
-      background:url(images/NZbg1.png) ;
-      background-size: cover;          
- }  
+#confirmReport{
+	position:fixed;
+	top:25%;
+	width:100%;
+	height:50%;
+	background: transparent;
+}
+
+
+#popupDialog{
+	left:-30px;
+	width:110%;
+	height:40%;
+	top:100px;
+	background: transparent;
+
+	
+}
  .photopopup {
     background: transparent;
  }
@@ -57,4 +164,16 @@
  	width: 50%;
  	top:50%;
  	left: 50%;
+ }
+ 
+ #cancel{
+	 position:fixed;
+	 top:55%;
+	 left:5%;
+ }
+ 
+ #report{
+	 position:fixed;
+	 top:55%;
+	 left:65%;
  }
