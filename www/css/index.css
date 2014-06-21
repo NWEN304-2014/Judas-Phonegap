@@ -12,6 +12,10 @@
 	
 }
 
+#pestpage{
+	background-color: black;
+}
+
 #logoutButt{
 	position:fixed;
 	top:1.5%;
@@ -27,6 +31,15 @@
 	left:2.5%;
 	width: 30px;
 	height: 30px;
+}
+.click{
+	z-index: 10;
+	position: fixed;
+	top: 1px;
+	left: 105px;
+	width: 100px;
+	height: 40px;
+	
 }
 
 #ratInfo{
@@ -54,20 +67,20 @@
 	height: 30%;
 }
 #cat{
-	padding-left: 0px;
+	padding-left: 10px;
 }
 #poss{
 	padding-left: 150px; 
 }
-.bottomTD{
-	padding-top: 150px;
-}
-#ratt{
 
+#ratt{
+padding-left: 10px;
+padding-top: 150px;
 }
 
 #stoatt{
 	padding-left: 150px;
+	padding-top: 150px;
 }
 
 .InfoPage{

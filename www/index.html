@@ -35,9 +35,11 @@
 
         <!-- Universal header -->
         <div data-role="header" data-position="fixed">
-                <a href="#login-panel" data-icon="bars">Menu</a>
+                 <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
+                <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                
                 <h1>SnapPest</h1>
+                 <a href="#mainpage"><div class="click"></div></a> 
         </div>
 		
 
@@ -83,6 +85,7 @@
                 <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
                 <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                 <h1>SnapPest</h1>
+               <a href="#mainpage"><div class="click"></div></a> 
         </div>
 	
 		
@@ -145,25 +148,24 @@
 
         <!-- Universal header -->
         <div data-role="header" data-position="fixed">
-                <a href="#pest-panel" data-icon="bars">Menu</a>
+               <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
+                <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                 <h1>SnapPest</h1>
+                <a href="#mainpage"><div class="click"></div></a> 
+
         </div>
 
         <!-- Page content -->
         <div role="main" class="ui-content" data-role="content">
 <div><img class="InfoPestPage" src="css/images/About.png"></div>
-<table>
-<tr>
-<td id="cat"><img class="pestPic" src="css/images/Cat.png"></td>
-<td id="poss"><img class="pestPic" src="css/images/Possum.png"></td>
-</tr>
-<tr>
-<td id="ratt" class="bottomTD"><img class="pestPic" src="css/images/Rat.jpg"></td>
-<td id="stoatt"class="bottomTD"><img class="pestPic" src="css/images/stoat.png"></td>
-</tr>
-</table>
-           
-        </div><!-- content-->
+
+
+
+<a href="#possumpage" data-rel="infoPage"><div id="poss" ><img class="pestPic report-possum" src="css/images/Possum.png"></div></a>
+<a href="#catpage" data-rel="infoPage"><div id="cat" ><img class="pestPic report-cat" src="css/images/Cat.png"></div></a>
+<a href="#ratpage" data-rel="infoPage"><div id="ratt" ><img class="pestPic report-rat" src="css/images/Rat.jpg"></div></a>
+<a href="#stoatpage" data-rel="infoPage"><div id="poss" ><img class="pestPic report-rat" src="css/images/Stoat.png"></div></a>
+</div><!-- content-->
 
     </div>
 	
@@ -188,9 +190,10 @@
 
            <!-- Universal header -->
             <div data-role="header" data-position="fixed">
-                   <div><a href="#catpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
+                   <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
                    <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                    <h1>SnapPest</h1>
+                    <a href="#mainpage"><div class="click"></div></a> 
            </div>
 
            <!-- Page content -->
@@ -198,7 +201,7 @@
 
                <a href="#popup-report-cat" data-rel="popup"><div><img id="reportBut" src="css/images/reportBut.png"></div></a>
 
-               <div ><img class="InfoPage" src="css/images/CatInfoPage.png"></div>
+               <div ><img class="InfoPage" src="css/images/CatInfoPage.jpg"></div>
 
                 <!-- REPORT POPUP -->
                <div data-role="popup" id="popup-report-cat" class="popupDialog" data-overlay-theme="none" data-theme="none" data-dismissible="false" style="max-width:400px;" class="ui-corner-all" data-transition="fade">
@@ -242,6 +245,7 @@
                 <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
                 <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                 <h1>SnapPest</h1>
+                 <a href="#mainpage"><div class="click"></div></a> 
         </div>
 
         <!-- Page content -->
@@ -249,7 +253,7 @@
 
             <a href="#popup-report-possum" data-rel="popup"><div><img id="reportBut" src="css/images/reportBut.png"></div></a>
 
-            <div ><img class="InfoPage" src="css/images/PossumInfoPage.png"></div>
+            <div ><img class="InfoPage" src="css/images/PossumInfoPage.jpg"></div>
 
             <!-- REPORT POPUP -->
             <div data-role="popup" id="popup-report-possum" class="popupDialog" data-overlay-theme="none" data-theme="none" data-dismissible="false"                style="max-width:400px;" class="ui-corner-all" data-transition="fade">
@@ -296,6 +300,7 @@
                    <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
                    <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                    <h1>SnapPest</h1>
+                    <a href="#mainpage"><div class="click"></div></a> 
            </div>
 
            <!-- Page content -->
@@ -303,7 +308,7 @@
 
                <a href="#popup-report-rat" data-rel="popup"><div><img id="reportBut" src="css/images/reportBut.png"></div></a>
 
-               <div ><img class="InfoPage" src="css/images/RatInfoPage.png"></div>
+               <div ><img class="InfoPage" src="css/images/RatInfoPage.jpg"></div>
 
                <!-- REPORT POPUP -->
               <div data-role="popup" id="popup-report-rat" class="popupDialog" data-overlay-theme="none" data-theme="none" data-dismissible="false" style="max-width:400px;" class="ui-corner-all" data-transition="fade">
@@ -348,6 +353,7 @@
                       <div><a href="#pestpage"><img id="infoButt" src="css/images/AboutButton.png"></a></div>
                       <div><a href="#logout" class="FB-logout"><img id="logoutButt" src="css/images/logout.png"></a></div>
                       <h1>SnapPest</h1>
+                       <a href="#mainpage"><div class="click"></div></a> 
               </div>
 
               <!-- Page content -->
@@ -355,7 +361,7 @@
 
                   <a href="#popup-report-stoat" data-rel="popup"><div><img id="reportBut" src="css/images/reportBut.png"></div></a>
 
-                  <div ><img class="InfoPage" src="css/images/StoatInfoPage.png"></div>
+                  <div ><img class="InfoPage" src="css/images/StoatInfoPage.jpg"></div>
 
                    <!-- REPORT POPUP -->
                   <div data-role="popup" id="popup-report-stoat" class="popupDialog" data-overlay-theme="none" data-theme="none" data-dismissible="false" style="max-width:400px;" class="ui-corner-all" data-transition="fade">
